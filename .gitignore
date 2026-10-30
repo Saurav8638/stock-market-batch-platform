@@ -1,0 +1,23 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+
+# Spark
+spark-warehouse/
+
+# OS files
+.DS_Store
+Thumbs.db
