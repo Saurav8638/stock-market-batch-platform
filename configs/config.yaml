@@ -1,0 +1,19 @@
+app:
+  name: Stock Market Batch Platform
+  environment: development
+
+paths:
+  raw: data/raw
+  bronze: data/bronze
+  silver: data/silver
+  gold: data/gold
+
+spark:
+  app_name: StockMarketBatchProcessing
+  master: local[*]
+
+api:
+  base_url: https://www.alphavantage.co/query
+
+pipeline:
+  batch_size: 1000
